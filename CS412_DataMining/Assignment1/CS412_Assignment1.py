@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import stats
 
-scores = np.genfromtxt(fname='data.online.scores.txt')
+scores = np.genfromtxt(fname='CS_412_Fall21_Assignment1/data.online.scores.txt')
 
 mtmax = np.amax(scores, 0)[1]
 print('Max Score on Midterms', mtmax)
